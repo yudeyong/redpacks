@@ -8,7 +8,6 @@
 
 S(x)=1/(1+power(e,-x))
 
-$S(x)=\frac{1}{1+e^{-x)}}$
 ![SIGMOD function](https://gss3.bdstatic.com/-Po3dSag_xI4khGkpoWK1HF6hhy/baike/s%3D99/sign=a46bd6f1dd33c895a27e9472d01340df/0df3d7ca7bcb0a4659502a5f6f63f6246b60af62.jpg)
 
 ![SIGMOD image](https://www.missshi.cn/static/files/591/5989cee6e519f50ef7000031/13/images/803410fe2e9a6fc695759034004f0888.png)
@@ -21,7 +20,8 @@ C可以调整取值范围[3,6]
 > 
 > x=R\*C/(R2-R1)-C  
 > $$x=\frac{R*C}{R_2-R_1}-C$$
-> 2. 通过S(x)映射至[L0,L1]
+> 
+>  2.通过S(x)映射至[L0,L1]
 >
 > L=(L1-L0)\*2\*S(x)
 > $$L=(L_1-L_0)*2*S(x)$$
@@ -52,3 +52,4 @@ x = count+t
 
 f(x)=(p1+x)/(p2+x)
 
+注意要随机加抖动,避免各产品太像
