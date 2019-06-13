@@ -41,10 +41,6 @@ C可以调整取值范围[3,6]
 可使用如下曲线
 ![data curve](datacurve.png)
 
-形状类似下图
-
-![data curve](http://www.offcn.com/dl/2014/0912/20140912094511728.jpg)
-
 参数 | 说明 | 建议 
 ---- | ---- | ---
 Count | 购买个数
